@@ -121,7 +121,9 @@ function addTotalContributors(){
         console.log(`At index ${indexValue}, the accumulated number is ${result}`);
 
         return result; // becomes the new value for accumulator
-    }, 0);
+    }, 0); // second paramter is inital value of running total 
+    // reduce iterates through a list GAMES.JSON (a list of objects) and produces three variables at each iteration:
+    // the accumulator/running total variable , the item of the current iteration (an object), and the index of its current iteration
     
     totalContributors = totalContributors.toLocaleString('en-US'); // formatting numbers to include commas depending on country
     contributionsCard.innerHTML = `<p>${totalContributors}</p>`;

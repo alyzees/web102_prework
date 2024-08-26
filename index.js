@@ -108,7 +108,7 @@ const contributionsCard = document.getElementById("num-contributions");
     *   return acc + song.listens;
     * }, 0);
 */
-// callback function takes the argument of the changine value of the accumulator (as the program "iterates" through each item)
+// callback function takes the argument of the changing value of the accumulator (as the program "iterates" through each item)
 // variable and the list itself (songs in this case)
 
 // set the inner HTML using a template literal and toLocaleString to get a number with commas

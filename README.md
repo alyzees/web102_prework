@@ -18,7 +18,7 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 * [x] The Our Games section has an additional filter feature where the user can search through the specific games manually
-* [x] The CSS was modified to create better better UX/UI for the site (i.e user interaction and responsiveness)
+* [x] The CSS was modified to improve UX/UI design by enhancing responsiveness and visually-appealing components
 
 ## Video Walkthrough
 
